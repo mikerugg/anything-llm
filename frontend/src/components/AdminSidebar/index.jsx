@@ -28,7 +28,7 @@ export default function AdminSidebar() {
           {/* Header Information */}
           <div className="flex w-full items-center justify-between">
             <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-              AnythingLLM Admin
+              HITBOX.ai Admin
             </p>
             <div className="flex gap-x-2 items-center text-slate-500">
               <a
@@ -105,7 +105,7 @@ export default function AdminSidebar() {
                   href={paths.mailToMintplex()}
                   className="transition-all duration-300 text-xs text-slate-200 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400"
                 >
-                  @MintplexLabs
+                  @HITBOX.ai
                 </a>
               </div>
             </div>
@@ -144,7 +144,7 @@ export function SidebarMobileHeader() {
           <Menu className="h-6 w-6" />
         </button>
         <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-          AnythingLLM
+          HITBOX.ai
         </p>
       </div>
       <div
@@ -169,7 +169,7 @@ export function SidebarMobileHeader() {
             {/* Header Information */}
             <div className="flex w-full items-center justify-between">
               <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-                AnythingLLM Admin
+                HITBOX.ai Admin
               </p>
               <div className="flex gap-x-2 items-center text-slate-500">
                 <a
@@ -229,7 +229,7 @@ export function SidebarMobileHeader() {
                     href={paths.mailToMintplex()}
                     className="transition-all duration-300 text-xs text-slate-200 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400"
                   >
-                    @MintplexLabs
+                    @HITBOX.ai
                   </a>
                 </div>
               </div>

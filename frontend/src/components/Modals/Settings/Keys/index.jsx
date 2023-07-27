@@ -26,7 +26,7 @@ export default function SystemKeys({ hideModal = noop, user, settings = {} }) {
       <div className="relative bg-white rounded-lg shadow dark:bg-stone-700">
         <div className="flex items-start justify-between px-6 py-4">
           <p className="text-gray-800 dark:text-stone-200 text-base ">
-            These are the credentials and settings for how your AnythingLLM
+            These are the credentials and settings for how your HITBOX.ai
             instance will function. Its important these keys are current and
             correct.
           </p>
@@ -38,7 +38,7 @@ export default function SystemKeys({ hideModal = noop, user, settings = {} }) {
                 <AlertCircle className="h-8 w-8" />
                 <p className="text-sm md:text-base ">
                   Ensure all fields are green before attempting to use
-                  AnythingLLM or it may not function as expected!
+                  HITBOX.ai or it may not function as expected!
                 </p>
               </div>
             )}

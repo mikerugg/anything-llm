@@ -46,7 +46,7 @@ export default function Sidebar() {
           {/* Header Information */}
           <div className="flex w-full items-center justify-between">
             <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-              AnythingLLM
+              HITBOX.ai
             </p>
             <div className="flex gap-x-2 items-center text-slate-500">
               <AdminHome />
@@ -83,26 +83,7 @@ export default function Sidebar() {
                   <LLMStatus />
                   <IndexCount />
                 </div>
-                <a
-                  href={paths.hosting()}
-                  target="_blank"
-                  className="flex flex-grow w-[100%] h-[36px] gap-x-2 py-[5px] px-4 border border-slate-400 dark:border-transparent rounded-lg text-slate-800 dark:text-slate-200 justify-center items-center hover:bg-slate-100 dark:bg-stone-800 dark:hover:bg-stone-900"
-                >
-                  <Cpu className="h-4 w-4" />
-                  <p className="text-slate-800 dark:text-slate-200 text-xs leading-loose font-semibold">
-                    Managed cloud hosting
-                  </p>
-                </a>
-                <a
-                  href={paths.hosting()}
-                  target="_blank"
-                  className="flex flex-grow w-[100%] h-[36px] gap-x-2 py-[5px] px-4 border border-slate-400 dark:border-transparent rounded-lg text-slate-800 dark:text-slate-200 justify-center items-center hover:bg-slate-100  dark:bg-stone-800 dark:hover:bg-stone-900"
-                >
-                  <Briefcase className="h-4 w-4" />
-                  <p className="text-slate-800 dark:text-slate-200 text-xs leading-loose font-semibold">
-                    Enterprise Installation
-                  </p>
-                </a>
+                
               </div>
 
               {/* Footer */}
@@ -131,7 +112,7 @@ export default function Sidebar() {
                   href={paths.mailToMintplex()}
                   className="transition-all duration-300 text-xs text-slate-200 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400"
                 >
-                  @MintplexLabs
+                  @HITBOX.ai
                 </a>
               </div>
             </div>
@@ -184,7 +165,7 @@ export function SidebarMobileHeader() {
           <Menu className="h-6 w-6" />
         </button>
         <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-          AnythingLLM
+          HITBOX.ai
         </p>
       </div>
       <div
@@ -209,7 +190,7 @@ export function SidebarMobileHeader() {
             {/* Header Information */}
             <div className="flex w-full items-center justify-between">
               <p className="text-xl font-base text-slate-600 dark:text-slate-200">
-                AnythingLLM
+                HITBOX.ai
               </p>
               <div className="flex gap-x-2 items-center text-slate-500">
                 <AdminHome />
@@ -249,26 +230,7 @@ export function SidebarMobileHeader() {
                     <LLMStatus />
                     <IndexCount />
                   </div>
-                  <a
-                    href={paths.hosting()}
-                    target="_blank"
-                    className="flex flex-grow w-[100%] h-[36px] gap-x-2 py-[5px] px-4 border border-slate-400 dark:border-transparent rounded-lg text-slate-800 dark:text-slate-200 justify-center items-center hover:bg-slate-100 dark:bg-stone-800 dark:hover:bg-stone-900"
-                  >
-                    <Cpu className="h-4 w-4" />
-                    <p className="text-slate-800 dark:text-slate-200 text-xs leading-loose font-semibold">
-                      Managed cloud hosting
-                    </p>
-                  </a>
-                  <a
-                    href={paths.hosting()}
-                    target="_blank"
-                    className="flex flex-grow w-[100%] h-[36px] gap-x-2 py-[5px] px-4 border border-slate-400 dark:border-transparent rounded-lg text-slate-800 dark:text-slate-200 justify-center items-center hover:bg-slate-100  dark:bg-stone-800 dark:hover:bg-stone-900"
-                  >
-                    <Briefcase className="h-4 w-4" />
-                    <p className="text-slate-800 dark:text-slate-200 text-xs leading-loose font-semibold">
-                      Enterprise Installation
-                    </p>
-                  </a>
+                 
                 </div>
 
                 {/* Footer */}
@@ -297,7 +259,7 @@ export function SidebarMobileHeader() {
                     href={paths.mailToMintplex()}
                     className="transition-all duration-300 text-xs text-slate-200 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400"
                   >
-                    @MintplexLabs
+                    @HITBOX.ai
                   </a>
                 </div>
               </div>

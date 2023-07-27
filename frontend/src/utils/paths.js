@@ -5,19 +5,19 @@ export default {
     return "/";
   },
   github: () => {
-    return "https://github.com/Mintplex-Labs/anything-llm";
+    return "http://HITBOX.ai";
   },
   discord: () => {
-    return "https://discord.com/invite/6UyHPeGZAC";
+    return "http://HITBOX.ai";
   },
   docs: () => {
-    return "https://docs.mintplex.xyz/anythingllm-by-mintplex-labs/";
+    return "http://HITBOX.ai";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplex.xyz";
+    return "mailto:mike@HITBOX.ai";
   },
   hosting: () => {
-    return "https://form.typeform.com/to/KdSCdSvq";
+    return "http://HITBOX.ai";
   },
   workspace: {
     chat: (slug) => {

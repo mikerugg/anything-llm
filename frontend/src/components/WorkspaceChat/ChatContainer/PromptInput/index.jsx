@@ -74,7 +74,7 @@ export default function PromptInput({
             onKeyDown={captureEnter}
             onChange={onChange}
             required={true}
-            maxLength={8000}
+            maxLength={16000}
             disabled={inputDisabled}
             onFocus={() => setFocused(true)}
             onBlur={(e) => {
@@ -140,11 +140,6 @@ const Tracking = memo(({ workspaceSlug }) => {
     <div className="flex flex-col md:flex-row w-full justify-center items-center gap-2 mb-2 px-4 mx:px-0">
       <p className="bg-stone-600 text-slate-400 text-xs px-2 rounded-lg font-mono text-center">
         Chat mode: {chatMode}
-      </p>
-      <p className="text-slate-400 text-xs text-center">
-        Responses from system may produce inaccurate or invalid responses - use
-        with caution.
-      </p>
     </div>
   );
 });
